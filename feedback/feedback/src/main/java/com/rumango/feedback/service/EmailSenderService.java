@@ -13,7 +13,7 @@ public class EmailSenderService {
 
     public void sendEmail(String to, String subject, String body) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("bibhuschatgpt@gmail.com");
+        message.setFrom("your.company.mail@gmail.com");
         message.setTo(to);
         message.setSubject(subject);
         message.setText(body);
